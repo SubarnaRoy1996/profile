@@ -32,14 +32,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Senior Research Fellow",  "department of Basic Science and Humanities,"],
+        strings: ["Senior Research Fellow",  "Department of Basic Science and Humanities"],
         typeSpeed: 50,
         backSpeed: 40,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [ "Senior Research Fellow", "department of Basic Science and Humanities,"],
+        strings: [ "Senior Research Fellow", "Department of Basic Science and Humanities"],
         typeSpeed: 60,
         backSpeed: 40,
         loop: true
