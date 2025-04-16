@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #2c3e50, #34495e);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #dfe6e9;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      font-size: 1.7rem;
+      color: #2c3e50;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .edu-item {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .edu-item i {
+      color: #3498db;
+      margin-right: 15px;
+      font-size: 1.4rem;
+      margin-top: 4px;
+    }
+
+    .edu-content {
+      flex: 1;
+    }
+
+    .edu-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .edu-details {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.4rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #2c3e50;
+      color: white;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      section {
+        padding: 1.5rem;
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1><i class="fas fa-graduation-cap"></i> Education</h1>
+    <p>Educational qualifications and academic achievements</p>
+  </header>
+
+  <section data-aos="fade-up">
+    <h2><i class="fas fa-user-graduate"></i> Academic Background</h2>
+
+    <div class="edu-item">
+      <i class="fas fa-circle-check"></i>
+      <div class="edu-content">
+        <div class="edu-title">Ph.D (Pursuing)</div>
+        <div class="edu-details">
+          Thesis Supervisor: Dr. Pankaj Kumar Tiwari<br>
+          Assistant Professor, Department of Basic Science and Humanities<br>
+          Indian Institute of Information Technology, Bhagalpur – 813210, Bihar, India
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <i class="fas fa-circle-check"></i>
+      <div class="edu-content">
+        <div class="edu-title">M.Sc. in Mathematics</div>
+        <div class="edu-details">
+          Visva-Bharati University, Santiniketan, West Bengal<br>
+          CGPA: 8.74/10 (2020)
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <i class="fas fa-circle-check"></i>
+      <div class="edu-content">
+        <div class="edu-title">B.Sc. in Mathematics (Hons)</div>
+        <div class="edu-details">
+          Burdwan University, West Bengal<br>
+          Marks: 65.75% (2018)
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <i class="fas fa-circle-check"></i>
+      <div class="edu-content">
+        <div class="edu-title">Higher Secondary</div>
+        <div class="edu-details">
+          W.B.C.H.S.E., Kolkata<br>
+          Marks: 87.6% (2015)
+        </div>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <i class="fas fa-circle-check"></i>
+      <div class="edu-content">
+        <div class="edu-title">Matriculation</div>
+        <div class="edu-details">
+          W.B.B.S.E., Kolkata<br>
+          Marks: 78.7% (2013)
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    &copy; 2025 My Portfolio. All rights reserved.
+  </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
