@@ -134,14 +134,15 @@
   
   .home .home-content .text-1 {
     font-size: 27px;
-    margin-top: 161px;
+    margin-top: 282px;
+    margin-left:104px;
   }
   
   .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: 100px;
-    margin-top: 223;
+    margin-top: -6px;
   }
   
   .home .home-content .text-3 {
