@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Conferences</title>
+  <title>Conferences & Workshops</title>
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -12,17 +12,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f4f6f9;
       color: #333;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
     }
 
     header {
@@ -35,43 +30,46 @@
 
     header h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      color: #dfe6e9;
     }
 
     section {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 3rem auto;
       background: #fff;
-      padding: 2rem;
+      padding: 2.5rem;
       border-radius: 16px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-      text-align: center;
     }
 
     section h2 {
       font-size: 1.7rem;
       color: #2c3e50;
-      margin-bottom: 1.5rem;
       border-bottom: 2px solid #ddd;
       padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
     }
 
-    .coming-soon {
-      font-size: 1.2rem;
-      color: #555;
-      margin-top: 2rem;
-      font-style: italic;
+    ul {
+      list-style: none;
+      padding-left: 0;
     }
 
-    .icon {
-      font-size: 3rem;
+    li {
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    li i {
       color: #3498db;
-      margin-bottom: 1rem;
+      margin-right: 12px;
+      font-size: 1.1rem;
+      margin-top: 4px;
+    }
+
+    .item-text {
+      font-size: 1.05rem;
+      line-height: 1.6;
     }
 
     footer {
@@ -84,15 +82,15 @@
 
     @media (max-width: 600px) {
       header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 
       section {
         padding: 1.5rem;
       }
 
-      .icon {
-        font-size: 2.5rem;
+      .item-text {
+        font-size: 1rem;
       }
     }
   </style>
@@ -100,20 +98,54 @@
 <body>
 
   <header data-aos="fade-down">
-    <h1><i class="fas fa-microphone"></i> Conferences</h1>
-    <p>Academic Conferences & Presentations</p>
+    <h1><i class="fas fa-microphone"></i> Conferences & Workshops</h1>
   </header>
 
-  <section data-aos="zoom-in">
-    <i class="fas fa-spinner icon fa-spin"></i>
-    <h2>Information Coming Soon</h2>
-    <p class="coming-soon">
-      Details about conferences and academic presentations will be updated here shortly. Stay tuned!
-    </p>
+  <section data-aos="fade-up">
+    <h2><i class="fas fa-chalkboard-teacher"></i> Workshops Attended</h2>
+    <ul>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">Mathematical Modeling and Dynamical Systems with applications using Mathematica and Matlab – IIT Roorkee, July 11–18, 2022</div></li>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">Training-cum-Workshop on Mathematical Biology (TWMB-2022) – University of Kalyani, September 19–20, 2022</div></li>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">Nonlinear Phenomena in Mathematical Biology (WoNPMB-2022) – ABV-IIITM Gwalior (Online), December 19–23, 2022</div></li>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">Applications of Dynamical Systems in Health and Environment – ABV-IIITM Gwalior, June 05–06, 2023</div></li>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">5-DAYS ONLINE FDP on Mathematical Modelling in Science and Technology – JISCE Kalyani, July 10–14, 2023</div></li>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">International Seminar on Mathematical Modeling and Turing's Pattern Formation – VIT, September 11–15, 2023</div></li>
+      <li><i class="fas fa-circle-check"></i><div class="item-text">Theoretical and Computational Dynamics of Biological Systems (TCDBS 2025) – ABV-IIITM Gwalior, April 09–11, 2025</div></li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up" data-aos-delay="100">
+    <h2><i class="fas fa-file-alt"></i> Research Papers Presented</h2>
+    <ul>
+      <li><i class="fas fa-circle-check"></i>
+        <div class="item-text">
+          <strong>Title:</strong> A systematic study of autonomous and nonautonomous predator-prey models for the combined effects of fear, refuge, cooperation and harvesting<br>
+          <strong>Event:</strong> NCDE 2023<br>
+          <strong>Institute:</strong> IIT Patna<br>
+          <strong>Date:</strong> March 17–19, 2023
+        </div>
+      </li>
+      <li><i class="fas fa-circle-check"></i>
+        <div class="item-text">
+          <strong>Title:</strong> Bifurcation analysis of autonomous and nonautonomous modified Leslie-Gower models<br>
+          <strong>Event:</strong> MAS 2024<br>
+          <strong>Institute:</strong> IIT (ISM) Dhanbad<br>
+          <strong>Date:</strong> June 28–30, 2024
+        </div>
+      </li>
+      <li><i class="fas fa-circle-check"></i>
+        <div class="item-text">
+          <strong>Title:</strong> Dynamics of a Generalist Predator-Prey System with Harvesting and Hunting Cooperation of Predators in Deterministic/Stochastic Environment<br>
+          <strong>Event:</strong> 8th India Biodiversity Meet 2025<br>
+          <strong>Institute:</strong> ISI Kolkata<br>
+          <strong>Date:</strong> March 24–26, 2025
+        </div>
+      </li>
+    </ul>
   </section>
 
   <footer data-aos="fade-up">
-    &copy; 2025 My Portfolio. All rights reserved.
+    &copy; 2025 Subarna Roy. All rights reserved.
   </footer>
 
   <!-- AOS Animation Script -->
