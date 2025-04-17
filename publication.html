@@ -12,17 +12,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f4f6f9;
       color: #333;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
     }
 
     header {
@@ -35,29 +30,23 @@
 
     header h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      color: #dfe6e9;
     }
 
     section {
       max-width: 1000px;
       margin: 3rem auto;
       background: #fff;
-      padding: 2rem;
+      padding: 2.5rem;
       border-radius: 16px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     }
 
     section h2 {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       color: #2c3e50;
-      margin-bottom: 1.5rem;
       border-bottom: 2px solid #ddd;
       padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
     }
 
     ul {
@@ -66,26 +55,30 @@
     }
 
     li {
-      margin: 1.5rem 0;
-      font-size: 1rem;
+      margin-bottom: 1.5rem;
       display: flex;
       align-items: flex-start;
     }
 
     li i {
-      margin-right: 12px;
       color: #3498db;
-      font-size: 1.2rem;
+      margin-right: 12px;
+      font-size: 1.1rem;
       margin-top: 4px;
     }
 
-    .paper-title {
-      font-weight: 600;
+    .paper-text {
+      font-size: 1.05rem;
+      line-height: 1.6;
     }
 
-    .journal {
-      color: #555;
-      font-size: 0.95rem;
+    .paper-text a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    .paper-text a:hover {
+      text-decoration: underline;
     }
 
     footer {
@@ -98,17 +91,16 @@
 
     @media (max-width: 600px) {
       header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 
       section {
         padding: 1.5rem;
       }
-    }
 
-    /* Smooth scroll */
-    html {
-      scroll-behavior: smooth;
+      .paper-text {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
@@ -116,104 +108,65 @@
 
   <header data-aos="fade-down">
     <h1><i class="fas fa-book"></i> Publications</h1>
-    <p>Research work published in international journals</p>
+    <p>Published Research Papers in Peer-Reviewed Journals</p>
   </header>
 
   <section data-aos="fade-up">
-    <h2><i class="fas fa-scroll"></i> Research Papers</h2>
+    <h2><i class="fas fa-scroll"></i> Journal Articles</h2>
     <ul>
-      <li>
-        <i class="fas fa-file-alt"></i>
-        <div>
-          <div class="paper-title">Two fold impacts of fear in a seasonally forced predator-prey system with Cosner functional response</div>
-          <div class="journal">D. Barman, S. Roy, PK Tiwari, S. Alam – <em>Journal of Biological Systems</em>, 31(2), 517–555, 2023.</div>
-        </div>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">D. Barman, S. Roy, P.K. Tiwari, S. Alam, <strong>Two fold impacts of fear...</strong> <em>Journal of Biological Systems</em>, 31(2), 2023. <a href="https://doi.org/10.1142/S0218339023500183" target="_blank">DOI</a></div>
       </li>
-      <li>
-        <i class="fas fa-file-alt"></i>
-        <div>
-          <div class="paper-title">An optimal control model for the impact of Phoslock on the mitigation of algal biomass in lakes</div>
-          <div class="journal">P.K. Tiwari, S. Roy, G. Douglas, AK Misra – <em>Journal of Biological Systems</em>, 30(4), 945–984, 2022.</div>
-        </div>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">P.K. Tiwari, S. Roy, G. Douglas, A.K. Misra, <strong>An optimal control model...</strong> <em>Journal of Biological Systems</em>, 30(4), 2022. <a href="https://doi.org/10.1142/S0218339022500346" target="_blank">DOI</a></div>
       </li>
-      <li>
-        <i class="fas fa-file-alt"></i>
-        <div>
-          <div class="paper-title">Effect of seasonality on a nutrient-plankton system with toxicity in the presence of refuge and additional food</div>
-          <div class="journal">PK Tiwari, S Roy, AK Misra, RK Upadhyay – <em>European Physical Journal Plus</em>, 137, 368, 2022.</div>
-        </div>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">P.K. Tiwari, S Roy, A.K. Misra, R.K. Upadhyay, <strong>Effect of seasonality on...</strong> <em>EPJ Plus</em>, 137, 2022. <a href="https://doi.org/10.1140/epjp/s13360-022-02566-1" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, P.K. Tiwari, H. Nayak, M. Martcheva, <strong>Effects of fear, refuge...</strong> <em>EPJ Plus</em>, 137, 2022. <a href="https://doi.org/10.1140/epjp/s13360-022-02751-2" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">B. Mondal, S. Roy, U. Ghosh, et al., <strong>A systematic study of autonomous...</strong> <em>EPJ Plus</em>, 137, 2022. <a href="https://doi.org/10.1140/epjp/s13360-022-02915-0" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">A. Sha, S. Roy, P.K. Tiwari, J. Chattopadhyay, <strong>Dynamics of a generalist...</strong> <em>Math. Methods Appl. Sci.</em>, 47(7), 2024. <a href="https://doi.org/10.1002/mma.9897" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, N. Sk, P.K. Tiwari, <strong>Bifurcation analysis of a modified Leslie-Gower model...</strong> <em>Chaos</em>, 34, 023131, 2024. <a href="https://doi.org/10.1063/5.0171936" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, S. Samanta, et al., <strong>Deterministic vs Stochastic Dynamics of Predator-Prey...</strong> <em>Int. J. of Biomathematics</em>, 2024. <a href="https://doi.org/10.1142/S1793524524500475" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">A.K. Umrao, S. Roy, et al., <strong>Dynamical behaviors of predator-prey systems...</strong> <em>Chaos Solitons & Fractals</em>, 183, 2024. <a href="https://doi.org/10.1016/j.chaos.2024.114891" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, Sajan, et al., <strong>Stage-structured predator-prey system...</strong> <em>Chaos</em>, 34, 063133, 2024. <a href="https://doi.org/10.1063/5.0215467" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, P.K. Tiwari, <strong>Bistability in predator-prey model with Crowley–Martin response...</strong> <em>Math. & Computers in Simulation</em>, 228, 2024. <a href="https://doi.org/10.1016/j.matcom.2024.09.001" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, P.K. Tiwari, <strong>Multistability in a generalist predator-prey model...</strong> <em>EPJ B</em>, 97(11), 2024. <a href="https://doi.org/10.1140/epjb/s10051-024-00814-0" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">N. Sk, S. Roy, P.K. Tiwari, <strong>Seasonal stochasticity in phytoplankton-zooplankton dynamics...</strong> <em>Math. Methods Appl. Sci.</em>, 48(5), 2024. <a href="https://doi.org/10.1002/mma.10651" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, S. Mandal, et al., <strong>Stochastic shifts in predator-prey with schooling behavior...</strong> <em>Journal of Biological Systems</em>, 2024. <a href="https://doi.org/10.1142/S0218339025500123" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">S. Roy, S. Khajanchi, P.K. Tiwari, <strong>Fear and its carry-over effects in generalist predator-prey system...</strong> <em>J. of Applied Math. & Computing</em>, 2024. <a href="https://doi.org/10.1007/s12190-024-02346-3" target="_blank">DOI</a></div>
+      </li>
+      <li><i class="fas fa-file-alt"></i>
+        <div class="paper-text">Y. Wang, Q. Guo, et al., <strong>Impacts of refuge and additional foods on spatiotemporal dynamics...</strong> <em>EPJ Plus</em>, Accepted (2025).</div>
       </li>
     </ul>
-    <li>
-      <i class="fas fa-file-alt"></i>
-      <div>
-        <div class="paper-title">  Effects of fear, refuge and hunting cooperation in a seasonally forced eco-epidemic model with selective predation,  </div>
-        <div class="journal">S. Roy, P.K. Tiwari, H. Nayak, M. Martcheva – <em>The European Physical Journal Plus,</em>137, 528, 2022.</div>
-      </div>
-    </li>
-  </ul>
-  
-  <li>
-    <i class="fas fa-file-alt"></i>
-    <div>
-      <div class="paper-title">  A systematic study of autonomous and nonautonomous predator-prey models for the combined effects of fear, refuge, cooperation and harvesting, </div>
-      <div class="journal"> B. Mondal, S. Roy, U. Ghosh, P.K. Tiwari, – <em>European Physical Journal Plus</em>, 137, 724, 2022.</div>
-    </div>
-<li>
-  <i class="fas fa-file-alt"></i>
-  <div>
-    <div class="paper-title">  Dynamics of a generalist predator-prey system with harvesting and cooperation of predators in a noisy environment,  </div>
-    <div class="journal">  A. Sha, S. Roy, P.K. Tiwari, J. Chattopadhyay, – <em>Mathematical Methods in the Applied Sciences,</em>47(7), 5916-5938, 2024.
-    </div>
-  </div>
-</li>
-</ul>
-
-<li>
-  <i class="fas fa-file-alt"></i>
-  <div>
-    <div class="paper-title">   Bifurcation analysis of a modified Leslie-Gower model with fear, hunting cooperation and predator-taxis sensitivity,</div>  
-      <div class="journal"> S. Roy, N. Sk, P.K. Tiwari,– <em>Chaos: An Interdisciplinary Journal of Nonlinear Science,</em> 34, 023131, 2024.
-    </div>
-</li>
-</ul>
-<li>
-  <i class="fas fa-file-alt"></i>
-  <div>
-    <div class="paper-title">  Deterministic Versus Stochastic Dynamics of a Predator-Prey System with Disease in Prey: Impact of Fear and Supplementary Foods, </div> 
-      <div class="journal"> S. Roy, S. Samanta, H. Nayak, P.K. Tiwari,– <em>International Journal of Biomathematics,</em>2024.
-    </div>
-</li>
-</ul>
-<li>
-  <i class="fas fa-file-alt"></i>
-  <div>
-    <div class="paper-title">  P.K. Srivastava, Dynamical behaviors of autonomous and nonautonomous models of generalist predator-prey system with fear, mutual interference and nonlinear harvesting,</div>
-      <div class="journal">  A.K. Umrao, S. Roy, P.K. Tiwari,– <em>Chaos Solitons & Fractals, </em> 183, 114891, 2024.
-    </div>
-</li>
-</ul>
-<li>
-  <i class="fas fa-file-alt"></i>
-  <div>
-    <div class="paper-title">  Dynamics of a stage-structured predator-prey system with fear-induced group defense in autonomous and nonautonomous settings, </div>
-      <div class="journal"> S. Roy, Sajan, P.K. Tiwari, B. Dubey,– <em>Chaos: An Interdisciplinary Journal of Nonlinear Science,</em> 34, 063133, 2024.
-</li>
-</ul>
-
-<li>
-  <i class="fas fa-file-alt"></i>
-  <div>
-    <div class="paper-title"> Bistability in a predator-prey model characterized by the Crowley,–Martin functional response: Effects of fear, hunting cooperation,</div>
-      <div class="journal"> S. Roy, P.K. Tiwari,– <em> additional foods and nonlinear harvesting, Mathematics and computers in Simulation, Accepted.​</em>
-    </div>
-
-</li>
-</ul>
   </section>
 
   <footer data-aos="fade-up">
-    &copy; 2025 My Portfolio. All rights reserved.
+    &copy; 2025 Subarna Roy. All rights reserved.
   </footer>
 
   <!-- AOS Animation Script -->
@@ -224,5 +177,7 @@
       once: true
     });
   </script>
+
 </body>
 </html>
+
