@@ -32,14 +32,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["A Senior Research Fellow ",  " At the Department of Basic Science and Humanities "],
+        strings: ["Assistant Professor (Guest Faculty)",  " At the Department of Basic Science and Humanities "],
         typeSpeed: 50,
         backSpeed: 40,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [ "A Senior Research Fellow ", " At the Department of Basic Science and Humanities "],
+        strings: [ "Assistant Professor (Guest Faculty)", " At the Department of Basic Science and Humanities "],
         typeSpeed: 60,
         backSpeed: 40,
         loop: true
